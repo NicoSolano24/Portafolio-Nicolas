@@ -15,6 +15,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    width: 80%;
+    margin: 0 10% 0 10%;
 }
 ol, ul,li {
     list-style: none;
@@ -40,8 +42,6 @@ https://en.bem.info/methodology/quick-start/*/
 
 section.menu{
     height: 88px;
-    width: 80%;
-    margin: 0 10% 0 10%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -79,8 +79,6 @@ li.menu__list__item__contato {
 
 section.title{
     height: 368px;
-    width: 80%;
-    margin: 0 10% 0 10%;
 }
 
 div.title__div {

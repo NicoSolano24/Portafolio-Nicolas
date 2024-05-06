@@ -1,12 +1,9 @@
 /*CSS Reset / Normalize*/
 /* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
 en las secciones señaladas */
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
 }
@@ -42,14 +39,87 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
+    height: 88px;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
 
+.menu__header img {
+    margin-right: 8px
+}
+
+.menu__header {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+    font-weight: bold;
+}
+
+ul.menu__list {
+    font-size: 16px;
+    width: 653px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu__list__item:last-child {
+    font-weight: bold;
+}
+
+li.menu__list__item__contato {
+    display: none;
 }
 
 /*Sección Title*/
 
 section.title{
-
+    height: 368px;
+    width: 80%;
+    margin: 0 10% 0 10%;
 }
+
+div.title__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.title__profile:nth-child(1){
+    order: 2;
+}
+
+div.title__container {
+    height: 246px;
+    width: 751px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2.title__bio {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+h3.title__subsection {
+    font-size: 22px;
+}
+
+ul.title__network {
+    height: 24px;
+    width: 467px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /*Sección About*/
 
@@ -91,7 +161,7 @@ section.footer{
 Utiliza las referencias de los breakpoints @media abajo */
 
 
-/*Tablet*/
+/*Tablet aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 @media (min-width: 768px) {
 
 /* Menú */
@@ -108,10 +178,12 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 }
 
-/*Mobile*/
+/*Mobile aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 @media (min-width: 425px) {
 
 /*Menu*/
+ul.menu__list {}
+
 
 /*Titulo*/
 

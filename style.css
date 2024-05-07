@@ -79,6 +79,7 @@ li.menu__list__item__contato {
 
 section.title{
     height: 368px;
+    margin: 32px 0;
 }
 
 div.title__div {
@@ -89,6 +90,7 @@ div.title__div {
 
 img.title__profile:nth-child(1){
     order: 2;
+    width: 368px;
 }
 
 div.title__container {

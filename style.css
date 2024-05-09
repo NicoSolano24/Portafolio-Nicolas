@@ -15,8 +15,6 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
-    width: 80%;
-    margin: 0 10% 0 10%;
 }
 ol, ul,li {
     list-style: none;
@@ -41,6 +39,8 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
+    width: 80%;
+    margin: 0 10% 0 10%;
     height: 88px;
     display: flex;
     align-items: center;
@@ -83,6 +83,8 @@ section.title{
 }
 
 div.title__div {
+    width: 80%;
+    margin: 0 10% 0 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -124,7 +126,36 @@ ul.title__network {
 /*Sección About*/
 
 section.about{
+    padding: 64px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #EAF2FD;
 
+}
+
+div.about__container {
+    width: 80%;
+    height: 255px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+h3.about__title {
+    font-size: 34px;
+    font-weight: bold; 
+}
+
+p.about__paragraph {
+    font-size: 20px;
+    display: block;
+    white-space: pre-line;
+    text-align: justify;
+}
+
+img.about__firma {
+    width: 140px;
+    height: 52px;
 }
 
 /*Sección Hobbies*/

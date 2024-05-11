@@ -142,12 +142,12 @@ div.about__container {
 }
 
 h3.about__title {
-    font-size: 34px;
+    font-size: 32px;
     font-weight: bold; 
 }
 
 p.about__paragraph {
-    font-size: 20px;
+    font-size: 16px;
     display: block;
     white-space: pre-line;
     text-align: justify;

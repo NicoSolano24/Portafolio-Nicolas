@@ -143,7 +143,7 @@ div.about__container {
 
 h3.about__title {
     font-size: 32px;
-    font-weight: bold; 
+    font-weight: 900; 
 }
 
 p.about__paragraph {
@@ -158,10 +158,87 @@ img.about__firma {
     height: 52px;
 }
 
+/*Sección Skills*/
+
+section.skills{
+    margin-top: 32px;
+    width: 80%;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+}
+
+h3.skills__title{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+div.skills__line{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.skills__box{
+    background-color: #ffffff;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}
+
+li.skills__img { 
+}
+
+li.skills__name {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 8px;
+}
+
 /*Sección Hobbies*/
 
 section.hobbies{
-    
+    margin: 88px 0px;
+    width: 80%;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+}
+
+h3.hobbies__title {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+div.hobbies__line {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.hobbies__box {
+    background-color: #ffffff;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}
+
+li.hobbies__name {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 8px;
 }
 
 /* Experiencia Académica*/
